@@ -31,7 +31,7 @@
 	width: 123px;
 	height: 34px;
 	z-index: 1;
-	left: 679px;
+	left: 670px;
 	top: 185px;
             }
             #apDiv5 {
@@ -130,7 +130,7 @@ div {
 }
         #apDiv13 {
 	position: absolute;
-	width: 225px;
+	width: 240px;
 	height: 41px;
 	z-index: 2;
 	left: 64px;
@@ -226,10 +226,11 @@ div {
 }
         #apDiv24 {
 	position: absolute;
-	width: 531px;
-	height: 21px;
+	text-align: center
+	width: 800px;
+	height: 21px;S
 	z-index: 1;
-	left: 220px;
+	left: 200px;
 	top: 142px;
 	color: #006680;
 	border-top-color: #006680;
@@ -266,6 +267,16 @@ div {
 }
 #contenidos{
 	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	color: #000;
+}
+
+
+
+/*#contenidosautores{
+	width: 2000px;
 	height: auto;
 	margin: auto;
 	position: relative;
@@ -334,6 +345,17 @@ section{
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
 }
+
+#seccionautores{
+	width: 713px;
+	background: white;
+	height: 720px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;
+}
+
+
 aside{
 	width: 280px;
 	background: white;
@@ -353,6 +375,7 @@ footer{
 	margin-bottom: 20px;
 	font-size: 12px;
 	text-align: left;
+	/*position:fixed;*/
 }
 p{
 
@@ -395,7 +418,7 @@ p{
 
 /*SEUDO CLASES*/
 p {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: normal;
 	color: #333;
 }
